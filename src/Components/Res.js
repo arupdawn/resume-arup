@@ -115,7 +115,7 @@ class Res extends React.Component {
 
               <div className="w3-bar-item menu_head">CONTACT</div>
               <div className="w3-bar-item menu_cont">
-                <i class="fas fa-user-circle fa-2x"></i>{" "}
+                <i className="fas fa-user-circle fa-2x"></i>{" "}
                 <span style={icon.root}>Born in 28th Nov,1992</span>
               </div>
 
