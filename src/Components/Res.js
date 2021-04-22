@@ -126,7 +126,7 @@ class Res extends React.Component {
 
               <div className="w3-bar-item menu_cont">
                 <i class="fas fa-phone fa-2x"></i>{" "}
-                <span style={icon.root}>+91 9641364470, +91 8521985038</span>
+                <span style={icon.root}>+91 9641364470</span>
               </div>
 
               <div className="w3-bar-item menu_cont">
@@ -245,44 +245,45 @@ class Res extends React.Component {
                     <br></br>
 
                     <div className="content">
-                      <strong>1.) Slack Clone App ( Sep 2020 )  </strong> - 
-                      Build a Slack Clone in React JS (Realtime chat app using Firebase).<br/><br/>
-                        • Implemented user authentication so now, user can SignIn via Google<br/>
-                        • Developed the complete Frontend using HTML, CSS, ReactJS, JavaScript
-                            , Material-UI, React  ContextAPI.<br/>
-                        • Planned and implemented complete backend via Firebase to store and fetch the data.<br/>
+                      <strong>1.) Jumkey.com (ongoing project)  </strong> - 
+                      Technology used (HTML5, CSS3, JavaScript, ReactJS, Redux).
+                      <br/><br/>
+                        • Implemented footer component displayed using response from rest API<br/>
+                        • The UI modification done for login screens for email and mobile login option. <br/>
+                        • Also, implemented screen for searching country name to be selected for logging in via mobile number.<br/>
+                        • Implemented search functionality of country name by typing the country code.<br/>
                         • Fully responsive working on all devices.
                       <br></br><br/>
-                      <strong>2.) Facebook Messenger Clone App (Sep 2020)   </strong> - 
-                      Have built messenger clone in React JS (Realtime chat app using Firebase).<br/><br/>
-                      • Captured the username when the user enters his names and display message accordindly.<br/>
-                      • Frontend designed using HTML, CSS, ReactJS, JavaScript, Material-UI.<br/>
-                      • Backend was implemented via Firebase.<br/>
+
+                      <strong>2.) Partners portal (Admin portal used by customer support team, warehouse team, marketting team etc.)  </strong> -
+                      (HTML5, CSS3, JavaScript, Jquery, Bootstrap)
+                      <br/><br/>
+                      • Warehouse migration done from old server to new server.<br/>
+                      • Worked on building features like coupon code creation, customers module to view customer details<br/>
+                      • Implemented Domestic and International tabs for viewing International and domestic orders in order details page and abandoned cart and checkouts page<br/>
+                      • Feature implementaions like raising restocks, warehouse item details, and data table view etc.
+                      <br></br><br/>
+
+                      <strong>3.) React partners portal (Admin portal used by catalog team, accounts team and warehouse team)   </strong> - 
+                      (HTML5, CSS3, JavaScript, ReactJS, Redux)
+                      <br/><br/>
+                      • Developed the partners onboarding admin feature to add new partners/sellers for jumkey.com.<br/>
+                      • Implemented the Shipping profile features for different sellers.<br/>
+                      • Missing features built for Attribute, Schemas, Templates for products.<br/>
+                      <br></br><br/>
+
+                      <strong>4.) Netfllix Clone App ( April 2021 - Personal project)   </strong> - 
+                      (HTML5, CSS3, JavaScript, ReactJS, Redux, Firebase)<br/><br/>
+                      • Sign in and Sign up feature implemented using firebase.<br/>
+                      • User once logged in can view the list of movies for different genres.<br/>
+                      • On click of any movie banner- redirection to youtube trailer has been implemented<br/>
+                      • Signout feature implemented using firebase.<br/>
                       • Responsive on all devices.
                       <br></br><br/>
-                      <strong>3.) Amazon Clone App ( Sep 2020 )   </strong> - 
-                      Amazon Clone app built in ReactJS (E-commerce app using Firebase)<br/><br/>
-                      • User authentication implemented using email and password.<br/>
-                      • Frontend created using HTML, CSS, ReactJS, JavaScript, Material-UI, React  ContextAPI<br/>
-                      • Backend was implemented via Firebase.<br/>
-                      • Included features of adding products to cart, checkout and doing payment . User can 
-                         check his orders in return & orders section .
-                      <br></br><br/>
-                      <strong>4.) Online Movie Search App ( July 2020 )   </strong> - 
-                      Movie Search app built using ReactJS (Movie Search App using third party API)<br/><br/>
-                      • Included the ability to search a movie with the movie name, displays the 
-                      list of movies of the search name.<br/>
-                      • Implemented Frontend using HTML, CSS, ReactJS, JavaScript, Bootstrap.<br/>
-                      • Fetched and displayed data from IMDB API.<br/>
-                      • User can click the movie image and check the movie details like name,
-                       genre, IMDB rating, story synopsis, director and the cast.<br/>
-                       • Responsive on all devices.
-                      <br></br><br/>
-                      Some of the other apps created are
+                      Some of my other personals apps created are
                       <strong>
                         {" "}
-                        TaskBoard, Calculator, Video Gallery, PomoDoro Clock,
-                        ToDo List, Random Quote Generator{" "}
+                        Messenger clone, Amazon Clone, Online movie search, CricScore{" "}
                       </strong>
                       and many more.
                       <br></br>
@@ -290,7 +291,7 @@ class Res extends React.Component {
                       You can directly check the apps at my portfolio page at
                       <strong>
                         {" "}
-                        http://competent-meninsky-8a4f27.netlify.app/
+                        https://arupchandradawn.netlify.app/
                       </strong>
                       <br></br>
                     </div>
