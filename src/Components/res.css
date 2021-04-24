@@ -1,5 +1,5 @@
 #Res_styling{
-
+    min-width: 1028px;
     height:100%;
 }
 
@@ -99,4 +99,10 @@
 .companyExp > div > strong{
     font-weight: normal;
     font-size: 18px;
+}
+
+@media screen and (max-width: 769px){
+    .sidebar{
+        zoom: 0.7;
+    }
 }
