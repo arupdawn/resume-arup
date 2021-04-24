@@ -214,8 +214,47 @@ class Res extends React.Component {
                 </div>
               </div>
               <br></br>
+
+              
+              <div className="w3-bar-item menu_head">PROFESSIONAL EXPERIENCE</div>
+
+                    <div className="time"></div>
+                    <br></br>
+
+                    <div className="content__experience">
+                      <div className="companyExp">
+                        <img src={Ninjaas_logo} />
+                        <div>
+                          <strong>FrontEnd Developer </strong>{" "}
+                          <br></br>
+                          Nov 2020 – Present , Bengaluru, Karnataka
+                        </div>
+                      </div>
+                      <div className="companyExp">
+                        <img src={SwiggyLogo} />
+                        <div>
+                          <strong>Support Executive ( 2 years ) </strong>{" "}
+                          <br></br>
+                          May 2018 – June 2020 , Bengaluru, Karnataka
+                        </div>
+                      </div>
+                      <div className="companyExp">
+                        <img src={TCSLogo} />
+                        <div>
+                          <strong>
+                            Assistant System Engineer ( 1 year 9 months ){" "}
+                          </strong>{" "}
+                          <br></br>
+                          Nov 2015 – Aug 2017 , Bengaluru, Karnataka
+                        </div>
+                      </div>
+                    </div>
+
             </div>
+
           </Grid>
+
+          
 
           <Grid item xs={8}>
             <div id="Page_Content">
@@ -299,55 +338,38 @@ class Res extends React.Component {
                 </Card>
                 <br></br>
 
+
+                {/* <br/><br/> */}
                 <Card id="card">
                   <CardContent>
-                    <div className="sidehead">Professional Experience</div>
-
-                    <div className="time"></div>
+                    <div className="sidehead">Experience metrics</div>
                     <br></br>
+                      <div className="content">
+                      • Hands-on web development experience including the following technologies: HTML5, CSS3,Javascript,ReactJS,Redux,firebase,Material UI,GIT.<br/>
 
-                    <div className="content">
-                      <div className="companyExp">
-                        <img src={Ninjaas_logo} />
-                        <div>
-                          <strong>FrontEnd Developer </strong>{" "}
-                          <br></br>
-                          Nov 2020 – Present , Bengaluru, Karnataka
-                        </div>
-                      </div>
-                      <div className="companyExp">
-                        <img src={SwiggyLogo} />
-                        <div>
-                          <strong>Support Executive ( 2 years ) </strong>{" "}
-                          <br></br>
-                          May 2018 – June 2020 , Bengaluru, Karnataka
-                        </div>
-                      </div>
-                      <div className="companyExp">
-                        <img src={TCSLogo} />
-                        <div>
-                          <strong>
-                            Assistant System Engineer ( 1 year 9 months ){" "}
-                          </strong>{" "}
-                          <br></br>
-                          Nov 2015 – Aug 2017 , Bengaluru, Karnataka
-                        </div>
-                      </div>
-                      • Prepared for GATE and ISRO in the time interval from Aug 2017 – April 2018.
-                      
-                      <br></br>• Restarted my web development carrier as a
-                      frontend developer by learning from
-                      <strong> FreeCodeCamp </strong> website. 
-                      <br></br>• Developed many web applications which has a
-                      good User Interface and Responsive Design using
-                      <strong>
-                        {" "}
-                        HTML, CSS, Javascript, Bootstrap, React JS Workflows,
-                         ES6.
-                      </strong>
+                      • Knowledge of REACT tools including React.js, Redux like React dev tool.<br/>
 
-                      <br></br>• As of now working as a Frontend developer in Ninjaas Labs Pvt. Ltd.
-                    </div>
+                      • Using Web Developer toolkits and IDEs like visual studio code.<br/>
+
+                      • Experience interfacing with JSON REST APIs.<br/>
+
+                      • Experience with Agile Methodologies, specifically Scrum.<br/>
+                      </div>
+
+                      <br/>
+                      <div className="sidehead">Roles and responsibilities</div>
+                      <br/>
+                      <div className="content">
+                        • Maintaining and improve website features using browser-based debugging and troubleshooting skills. <br/>
+                        • Developing UI components that provide an intuitive and seamless customer experience.<br/>
+                        • Translating wireframes into prototypes and production-ready interfaces.<br/>
+                        • Requirement collection for a new feature and delivering the feature with basic functionalities and usability.<br/>
+                        • Updating and maintaining code using version control tool like Git, and platforms like bitbucket and github.<br/>
+                        • Maintaining project artifacts and documents using tools like Jira,Github issues, github milestones,github discussions etc.<br/>
+                        • Collaborating with back-end developers and web designers to implement new feature or improve existing functionalities.<br/>
+                        • Preparing demonstration videos of any feature developed that would be used by end-user.<br/>
+                        • Issues and bug fixes for any project.<br/>
+                      </div>
                   </CardContent>
                 </Card>
                 <br></br>
@@ -367,7 +389,7 @@ class Res extends React.Component {
                         Management, West Bengal University of Technology{" "}
                       </strong>
                       with aggregate of<strong> 8.44 </strong>,2015.
-                      <br></br>
+                      {/* <br></br>
                       <br></br>
                       <strong>Intermediate </strong>from
                       <strong>
@@ -382,7 +404,7 @@ class Res extends React.Component {
                         Ramakrishna Vivekananda Sarda Vidyapith,Indian
                         Certificate of Secondary Education{" "}
                       </strong>
-                      board with<strong> 86.2% </strong>,2009.
+                      board with<strong> 86.2% </strong>,2009. */}
                     </div>
                   </CardContent>
                 </Card>
